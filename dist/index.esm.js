@@ -1724,7 +1724,7 @@ var Modal = function (_a) {
 };
 var templateObject_1$u, templateObject_2$9, templateObject_3$5;
 
-var Overlay = styled.div.attrs({ role: "presentation" })(templateObject_1$v || (templateObject_1$v = __makeTemplateObject(["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #2a7a2e;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"], ["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #2a7a2e;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"])), function (_a) {
+var Overlay = styled.div.attrs({ role: "presentation" })(templateObject_1$v || (templateObject_1$v = __makeTemplateObject(["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: ##af00e2;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"], ["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: ##af00e2;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"])), function (_a) {
     var show = _a.show;
     return (show ? 0.6 : 0);
 }, function (_a) {
@@ -2045,7 +2045,7 @@ var links = [
     {
         label: "Home",
         icon: "HomeIcon",
-        href: "https://finance.zcore.network",
+        href: "/",
     },
     {
         label: "Trade",
@@ -2053,18 +2053,18 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://exchange.zcore.network/#/swap",
+                href: "https://exchange.bitvio.id",
             },
             {
                 label: "Liquidity",
-                href: "https://exchange.zcore.network/#/pool",
+                href: "https://exchange.bitvio.id/#/pool",
             },
         ],
     },
     {
         label: "Farms",
         icon: "FarmIcon",
-        href: "https://finance.zcore.network/farms",
+        href: "/farms",
     },
     {
         label: "Pools",
@@ -2087,7 +2087,7 @@ var links = [
         items: [
             {
                 label: "Leaderboard",
-                href: "/",
+                href: "/teams",
             },
             {
                 label: "YourProfile",
@@ -2106,15 +2106,7 @@ var links = [
             },
             {
                 label: "Tokens",
-                href: "https://pancakeswap.info/tokens",
-            },
-            {
-                label: "Pairs",
-                href: "https://pancakeswap.info/pairs",
-            },
-            {
-                label: "Accounts",
-                href: "https://pancakeswap.info/accounts",
+                href: "https://pancakeswap.info/tokens/",
             },
         ],
     },
@@ -2142,11 +2134,15 @@ var links = [
             // },
             {
                 label: "Github",
-                href: "https://github.com/goosedefi/",
+                href: "https://github.com/Bitvio",
             },
             {
                 label: "Docs",
-                href: "https://zcore-network.gitbook.io/zcore-finance/",
+                href: "https://docs.bitvio.id",
+            },
+            {
+                label: "Blog",
+                href: "https://bitvio.medium.com",
             },
         ],
     },
@@ -2158,16 +2154,12 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/ZCoreFinance",
+                href: "https://t.me/Bitvio",
             },
             {
-                label: "Português",
-                href: "https://t.me/ZCoreFinancePT",
+                label: "Bahasa Indonesia",
+                href: "https://t.me/BitvioIndonesia",
             },
-            // {
-            //   label: "Bahasa Indonesia",
-            //   href: "https://t.me/PancakeSwapIndonesia",
-            // },
             // {
             //   label: "中文",
             //   href: "https://t.me/PancakeSwap_CN",
@@ -2206,14 +2198,14 @@ var socials = [
             // },
             {
                 label: "Announcements",
-                href: "https://t.me/ZCoreCrypto",
+                href: "https://t.me/BitvioChannel",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/ZCoreCrypto",
+        href: "https://twitter.com/bitvioindonesia",
     },
 ];
 var MENU_HEIGHT = 64;

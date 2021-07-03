@@ -2,7 +2,7 @@ export const links = [
   {
     label: "Home",
     icon: "HomeIcon",
-    href: "https://finance.zcore.network",
+    href: "/",
   },
   {
     label: "Trade",
@@ -10,18 +10,18 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.zcore.network/#/swap",
+        href: "https://exchange.bitvio.id",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.zcore.network/#/pool",
+        href: "https://exchange.bitvio.id/#/pool",
       },
     ],
   },
   {
     label: "Farms",
     icon: "FarmIcon",
-    href: "https://finance.zcore.network/farms",
+    href: "/farms",
   },
   {
     label: "Pools",
@@ -44,7 +44,7 @@ export const links = [
     items: [
       {
         label: "Leaderboard",
-        href: "/",
+        href: "/teams",
       },
       {
         label: "YourProfile",
@@ -63,16 +63,16 @@ export const links = [
       },
       {
         label: "Tokens",
-        href: "https://pancakeswap.info/tokens",
+        href: "https://pancakeswap.info/tokens/",
       },
-      {
-        label: "Pairs",
-        href: "https://pancakeswap.info/pairs",
-      },
-      {
-        label: "Accounts",
-        href: "https://pancakeswap.info/accounts",
-      },
+      // {
+      //   label: "Pairs",
+      //   href: "https://pancakeswap.info/pairs",
+      // },
+      // {
+      //   label: "Accounts",
+      //   href: "https://pancakeswap.info/accounts",
+      // },
     ],
   },
   {
@@ -99,11 +99,15 @@ export const links = [
       // },
       {
         label: "Github",
-        href: "https://github.com/goosedefi/",
+        href: "https://github.com/Bitvio",
       },
       {
         label: "Docs",
-        href: "https://zcore-network.gitbook.io/zcore-finance/",
+        href: "https://docs.bitvio.id",
+      },
+      {
+        label: "Blog",
+        href: "https://bitvio.medium.com",
       },
     ],
   },
@@ -116,16 +120,12 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/ZCoreFinance",
+        href: "https://t.me/Bitvio",
       },
       {
-        label: "Português",
-        href: "https://t.me/ZCoreFinancePT",
+        label: "Bahasa Indonesia",
+        href: "https://t.me/BitvioIndonesia",
       },
-      // {
-      //   label: "Bahasa Indonesia",
-      //   href: "https://t.me/PancakeSwapIndonesia",
-      // },
       // {
       //   label: "中文",
       //   href: "https://t.me/PancakeSwap_CN",
@@ -164,7 +164,7 @@ export const socials = [
       // },
       {
         label: "Announcements",
-        href: "https://t.me/ZCoreCrypto",
+        href: "https://t.me/BitvioChannel",
       },
       // {
       //   label: "Whale Alert",
@@ -175,7 +175,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/ZCoreCrypto",
+    href: "https://twitter.com/bitvioindonesia",
   },
 ];
 
