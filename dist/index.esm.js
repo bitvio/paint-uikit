@@ -342,7 +342,8 @@ var Icon$p = function (props) {
 };
 
 var Icon$q = function (props) {
-    return React.createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
+        React.createElement("image", { width: "32", height: "32", href: "/images/bitvio/logo.png" })));
 };
 
 var Icon$r = function (props) {
@@ -2032,7 +2033,6 @@ var Logo$1 = function (_a) {
     var isPushed = _a.isPushed, togglePush = _a.togglePush, isDark = _a.isDark, href = _a.href;
     var isAbsoluteUrl = href.startsWith("http");
     var innerLogo = (React.createElement(React.Fragment, null,
-        React.createElement(Icon$q, { className: "mobile-icon" }),
         React.createElement(Logo, { className: "desktop-icon", isDark: isDark })));
     return (React.createElement(Flex, null,
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$K, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$J, { width: "24px", color: "textSubtle" }))),
