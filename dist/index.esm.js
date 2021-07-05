@@ -342,8 +342,7 @@ var Icon$p = function (props) {
 };
 
 var Icon$q = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React.createElement("image", { width: "32", height: "32", href: "/images/bitvio/logo.png" })));
+    return React.createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props));
 };
 
 var Icon$r = function (props) {
