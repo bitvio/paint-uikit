@@ -413,7 +413,7 @@ var Icon$u = function (props) {
 
 var Icon$v = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 90, height: 90, href: "/images/egg/9.png" })));
+        React__default['default'].createElement("image", { width: 90, height: 90, href: "/images/bitvio/9.png" })));
 };
 
 var Icon$w = function (props) {
@@ -1119,7 +1119,7 @@ var Progress = function (_a) {
 var rotate$1 = styled.keyframes(templateObject_1$r || (templateObject_1$r = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
 var SpinnerIcon = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
-        React__default['default'].createElement("image", { width: "96", height: "96", href: "/images/egg/9.png" })));
+        React__default['default'].createElement("image", { width: "96", height: "96", href: "/images/bitvio/9.png" })));
 };
 var Container$1 = styled__default['default'].div(templateObject_2$6 || (templateObject_2$6 = __makeTemplateObject(["\n  position: relative;\n"], ["\n  position: relative;\n"])));
 var RotatingPancakeIcon = styled__default['default'](SpinnerIcon)(templateObject_3$2 || (templateObject_3$2 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"])), rotate$1);
@@ -2300,11 +2300,11 @@ var templateObject_1$A, templateObject_2$b;
 var MenuLink = function (_a) {
     var href = _a.href, otherProps = __rest(_a, ["href"]);
     var isHttpLink = href === null || href === void 0 ? void 0 : href.startsWith("http");
-    var isBitvio = (href === null || href === void 0 ? void 0 : href.startsWith("https://exchange.bitvio.id")) || (href === null || href === void 0 ? void 0 : href.startsWith("https://apps.bitvio.id")) || (href === null || href === void 0 ? void 0 : href.startsWith("https://finance.bitvio.id")) || (href === null || href === void 0 ? void 0 : href.startsWith("/")) || (href === null || href === void 0 ? void 0 : href.startsWith("https://swap.bitvio.id"));
+    var isZCore = (href === null || href === void 0 ? void 0 : href.startsWith("https://exchange.bitvio.id")) || (href === null || href === void 0 ? void 0 : href.startsWith("https://app.bitvio.id")) || (href === null || href === void 0 ? void 0 : href.startsWith("https://finance.bitvio.id")) || (href === null || href === void 0 ? void 0 : href.startsWith("/")) || (href === null || href === void 0 ? void 0 : href.startsWith("https://swap.bitvio.id"));
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     var Tag = isHttpLink ? "a" : reactRouterDom.NavLink;
     var props = isHttpLink ? { href: href } : { to: href };
-    if (isBitvio) {
+    if (isZCore) {
         return React__default['default'].createElement(Tag, __assign({}, props, otherProps));
     }
     else {
