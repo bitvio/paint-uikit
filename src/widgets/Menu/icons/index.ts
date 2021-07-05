@@ -19,6 +19,7 @@ export { default as TwitterIcon } from "./Twitter";
 export { default as AuditIcon } from "./Audit";
 export { default as GooseIcon } from "./Goose";
 export { default as ZCoreIcon } from "./ZCore";
+export { default as BitvioIcon } from "./Bitvio";
 export { default as CCIcon } from "./CC";
 export { default as ExchangeIcon } from "./Exchange";
 export { default as GitbookIcon } from "./Gitbook";
